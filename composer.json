@@ -1,8 +1,8 @@
-{
+﻿{
     "name": "dm/helpsystemtest",
     "description": "Help System integration for the Yii framework",
     "keywords": ["yii2", "helpsystem"],
-    "type": "yii2-extension",
+    "type": "dm-extension",
     "support": {
         "forum": "http://www.yiiframework.com/forum/",
         "wiki": "http://www.yiiframework.com/wiki/",
