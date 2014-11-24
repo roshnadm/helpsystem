@@ -1,0 +1,45 @@
+
+
+a{
+	text-decoration : none;
+}
+ul, ol {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.pager {
+    list-style: outside none none;
+    margin: 20px 0;
+    padding-left: 0;
+    text-align: center;
+}
+.pager .disabled > a, 
+.pager .disabled > a:hover, 
+.pager .disabled > a:focus, 
+.pager .disabled > span {
+    background-color: #fff;
+    color: #777;
+    cursor: not-allowed;
+}
+.pager li > a, .pager li > span {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 5px 14px;
+}
+.pager:before, .pager:after{
+	 clear: both;
+	 content: " ";
+    display: table;
+}
+.pager li {
+    display: inline;
+}
+/* remove after testing */
+body {
+    font-size: 14px;
+}
+html{
+	 font-family: sans-serif;
+}
