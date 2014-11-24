@@ -1,0 +1,29 @@
+{
+    "name": "dm/yii2-helpsystem",
+    "description": "Help System integration for the Yii framework",
+    "keywords": ["yii2", "helpsystem"],
+    "type": "yii2-extension",
+    "support": {
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "authors": [
+        {
+            "name"  : "digitalmesh",
+            "email" : "info@digitalmesh.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    }, 
+ "autoload": {
+        "psr-4": {
+            "dm/helpsystem\\": "",
+ 	    "dm/helpsystem/admin\\":  "modules/admin",
+            "dm/helpsystem/client\\":  "modules/client",
+            "dm/helpsystem/dmeditor\\": "vendor/dmeditor"
+        }
+}
+}
