@@ -18,7 +18,7 @@ Quickstart
 a. Using composer     
 	Run 
 	
-	php composer.phar require --prefer-dist yiisoft/yii2-helpsystem "*" 
+	php composer.phar require --prefer-dist dm/helpsystemtest "@dev" 
 
 b. Manual Installation
 
